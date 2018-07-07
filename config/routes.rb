@@ -1,9 +1,10 @@
 Rails.application.routes.draw do
   
   
+  resources :profiles
   devise_for :users
   
-  root 'main#about'
+  root 'main#dashboard'
   get 'main/about'
   get 'main/search'
   get 'main/dashboard'

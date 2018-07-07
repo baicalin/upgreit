@@ -3,6 +3,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.4.1'
 
+gem 'bootstrap'
 gem 'rails_db'
 #회원관리 회원가입
 gem 'devise'
